@@ -1,7 +1,6 @@
 package device
 
-// var DefaultScopes = []string{"openid", "profile", "offline_access"}
-var DefaultScopes = []string{"openid"}
+var DefaultScopes = []string{"openid", "profile", "offline_access"}
 
 type Provider interface {
 	Config(org, clientID string) *Config
