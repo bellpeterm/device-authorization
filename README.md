@@ -31,4 +31,3 @@ This provider is fully functional.
 
 To be implemented.
 [Setup instructions](https://developers.google.com/identity/protocols/oauth2/limited-input-device).
-
