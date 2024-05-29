@@ -10,7 +10,7 @@ This is the authorization flow the
 
 ## Providers
 
-The module has two providers, Auth0 and Okta, and a third which is yet to be implemented.
+The module has three providers, Auth0, Okta, and Entra, and a fourth which is yet to be implemented.
 
 ### Auth0
 
@@ -22,7 +22,13 @@ This provider is fully functional.
 This provider is fully functional. 
 [Setup instructions](https://developer.okta.com/docs/guides/device-authorization-grant/main/).
 
+### Entra
+
+This provider is fully functional.
+[Setup instructions](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code).
+
 ### Google
 
 To be implemented.
 [Setup instructions](https://developers.google.com/identity/protocols/oauth2/limited-input-device).
+
